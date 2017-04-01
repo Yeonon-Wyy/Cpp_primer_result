@@ -10,4 +10,7 @@ THE SIXTH CHAPTER
 *2017-3-29 update 13:40*
 
 	finish 6.2 and some exercises
+
+*2017-4-1 update 17:54*
+	finish the chapter
 	
