@@ -17,3 +17,12 @@ Finish 9.2
 *2017-4-9 22:52*
 
 Finish 9.3
+
+*2017-4-11 23:10*
+
+Finish 9.4 and 9.5
+
+And exercise 9.43 is important.
+	Though repalce more convinue than this way ,But this way solve some string problem.(And this way reference Pazy's github,He
+use std::distance(to calc two iterator's distance) and std::advance(can push iterator n step)).So this exercise realy important
+(At least I think so).	
