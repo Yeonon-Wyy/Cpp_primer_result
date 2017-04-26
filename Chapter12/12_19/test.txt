@@ -1,0 +1,6 @@
+For the latest documentation on Visual Studio 2017, see Visual Studio 2017 Documentation.
+To implement exception handling in C++, you use try, throw, and catch expressions.
+First, use a try block to enclose one or more statements that might throw an exception.
+A throw expression signals that an exceptional condition—often, an error—has occurred in a try block. You can use an object of any type as the operand of a throw expression. Typically, this object is used to communicate information about the error. In most cases, we recommend that you use the std::exception class or one of the derived classes that are defined in the standard library. If one of those is not appropriate, we recommend that you derive your own exception class from std::exception.
+To handle exceptions that may be thrown, implement one or more catch blocks immediately following a try block. Each catch block specifies the type of exception it can handle.
+This example shows a try block and its handlers. Assume that GetNetworkResource() acquires data over a network connection and that the two exception types are user-defined classes that derive from std::exception. Notice that the exceptions are caught by const reference in the catch statement. We recommend that you throw exceptions by value and catch them by const reference.
