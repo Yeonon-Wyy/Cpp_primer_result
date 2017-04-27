@@ -17,5 +17,10 @@ And some details I already write in code file as note
 
 *2017-04-26*
 
-Finsh 12.1 and unique_prt weak_prt(I think it maybe difficult to understand,because I don't known what is the role of?!)
+Finish 12.1 and unique_prt weak_prt(I think it maybe difficult to understand,because I don't known what is the role of?!)
+
+
+*2017-04-27*
+
+Finish 12.2
 
