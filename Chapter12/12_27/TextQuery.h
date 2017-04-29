@@ -1,38 +1,55 @@
 #include <fstream>
-#include <memory>
-#include <string>
-#include <vector>
-#include <map>
-#include <set>
 #include <sstream>
+
+#include <set>
+using std::set;
+
+#include <map>
+using std::map;
+
 #include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
+
+#include <vector>
+using std::vector;
+
+#include <string>
+using std::string;
+
+#include <memory>
+using std::shared_ptr;
+
+#include "StrBlob.h"
 
 class QueryResult;
 
 class TextQuery{
-
 public:
-	using line_no = std::vector<std::string>::size_type;
 	TextQuery(std::ifstream &);
-	QueryResult query(const std::string &) const;
+	QueryResult query(const string &) const;
 private:
-	std::shared_ptr<std::vector<std::string>> file;
-	std::map<std::string,
-		std::shared_ptr<std::set<line_no>>> word_map;
-
+	shared_ptr<StrBlob> file;
+	map<string,shared_ptr<set<StrBlob::size_type>>> word_map;
 };
 
 class QueryResult{
-	friend std::ostream& print(std::ostream&, const QueryResult&);	
+	using ResultIter = set<StrBlob::size_type>::iterator;
+	friend std::ostream &print(std::ostream &,const QueryResult &);
 public:
-	QueryResult(std::string s,
-				std::shared_ptr<std::set<TextQuery::line_no>> p,
-				std::shared_ptr<std::vector<std::string>> f):
-	word(s),lines(p),file(f){ }	
+	QueryResult(string word,
+				shared_ptr<set<StrBlob::size_type>> l,
+				shared_ptr<StrBlob> f):
+				word(word),line_n(l),file(f) { }
+	ResultIter begin() { return line_n->begin(); }
+	ResultIter end() { return line_n->end(); }
+	shared_ptr<StrBlob> get_file() { return file; }
 private:
-	std::string word;
-	std::shared_ptr<std::set<TextQuery::line_no>> lines;
-	std::shared_ptr<std::vector<std::string>> file;		
+	string word;
+	shared_ptr<set<StrBlob::size_type>> line_n;
+	shared_ptr<StrBlob> file;
+
 };
 
-std::ostream& print(std::ostream&, const QueryResult&);
+std::ostream &print(std::ostream &,const QueryResult &);
