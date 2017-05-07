@@ -19,6 +19,8 @@ public:
 		first_free(nullptr),elements(nullptr),cap(nullptr) { };
 	StrVec(std::initializer_list<string> l);	
 	StrVec(const StrVec&);
+	StrVec(StrVec &&) noexcept;
+	StrVec& operator=(StrVec &&) noexcept;
 	StrVec& operator=(const StrVec&);
 	~StrVec() { free(); }
 
