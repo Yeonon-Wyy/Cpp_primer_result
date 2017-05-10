@@ -41,6 +41,7 @@ int main() {
 	for (auto &s : printer.getData()){
 		std::cout << s << " ";
 	}
+	
 
 	return 0;
 }

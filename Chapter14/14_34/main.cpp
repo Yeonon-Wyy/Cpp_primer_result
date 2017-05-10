@@ -14,4 +14,5 @@ int main() {
 	std::cout << fuck(1,2,3) << std::endl;
 	std::cout << fuck(-1,2,3) << std::endl;
 	return 0;
+	
 }
