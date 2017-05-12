@@ -11,4 +11,4 @@ Finsh 15.3 and 15.4
 
 2. Abstract base class define general rules in inheritance relationship.It cat't create object ,Because general rule maybe uncomplate in actual use.
 
-Ps: abstract base class can define pointer.The feature maybe can use on dynamic type binding.
+Ps: abstract base class can define pointer.The feature maybe can use on dynamic type binding..
