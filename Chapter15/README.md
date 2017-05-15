@@ -23,3 +23,9 @@ Begin study Chapter15
 	Finsh 15.6 and 15.7
 	This part maybe diffcult to understand.So I cost much time.(
 	Despite this,I still can't understand it powerfuly)
+
+### *2017-5-15*
+	Finsh this chapter
+	Note : Query class is very interesting,could try to finish it as book.
+
+ 
