@@ -28,4 +28,4 @@ Begin study Chapter15
 	Finsh this chapter
 	Note : Query class is very interesting,could try to finish it as book.
 
- 
+Ps: The chapter is very important although it maybe diffcult understant.(This is C++) 
