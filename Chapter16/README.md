@@ -16,9 +16,14 @@ Begin study Chapter 16 (template)
 > Ps: About excise 16_12 define clas of Blob,I just define some function,more functions is very much the same as these.So,I don't write code for those.
 
 ### *2017-05-18*
-	Finsh 16.2
+	Finsh 16.2.1
 	1. We can define member template(divide with template class)
 	2. Some details maybe diffcult to understand.
+
+### *2017-05-19*
+	Finsh 16.2
+	1. Type inference is a important concept about template.
+	2. Forward is an useful tools. 
 
 
 
