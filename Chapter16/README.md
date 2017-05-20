@@ -25,5 +25,11 @@ Begin study Chapter 16 (template)
 	1. Type inference is a important concept about template.
 	2. Forward is an useful tools. 
 
+### *2017-5-20*
+	Finsh the chapter!
+
+
+> template in c++ is very powerful,but same time, template have many details.So,if you use template ,have to be so careful.
+
 
 
