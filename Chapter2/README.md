@@ -1,7 +1,8 @@
-THE SECOND CHAPTER TWO
+Summary
 ======================================
 
 
-# *2017-03-15 update*
+### *2017-03-15 update*
+Finsh Chapter 2
 
-### end of Chapter 2
+Ps: __*The unit is basic and simple*.__	

@@ -1,4 +1,4 @@
-Begin study Chapter15
+Summary
 ===========================
 ### *2017-05-11*
 	Finsh 15.1 and 15.2
@@ -11,7 +11,7 @@ Begin study Chapter15
 
 	2. Abstract base class define general rules in inheritance relationship.It cat't create object ,Because general rule maybe uncomplate in actual use.
 
->Ps: abstract base class can define pointer.The feature maybe can use on dynamic type binding..
+__Ps__: abstract base class can define pointer.The feature maybe can use on dynamic type binding..
 
 ### *2017-5-13*
 	Finsh 15.5
@@ -28,4 +28,4 @@ Begin study Chapter15
 	Finsh this chapter
 	Note : Query class is very interesting,could try to finish it as book.
 
-Ps: The chapter is very important although it maybe diffcult understant.(This is C++) 
+__Ps__: The chapter is very important although it maybe diffcult understant.(This is C++) 
