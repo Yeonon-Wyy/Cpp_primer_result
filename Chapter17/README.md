@@ -6,3 +6,7 @@ Summary
 	2. It is very powerful and useful.
 
 Ps: more details can reference the link [tuple](http://en.cppreference.com/mwiki/index.php?title=Special%3ASearch&search=tuple)
+
+### *2017-05-22*
+	1. bitset support bit operation and it's very convinue.
+
