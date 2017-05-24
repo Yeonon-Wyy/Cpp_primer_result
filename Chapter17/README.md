@@ -15,6 +15,12 @@ __Ps__: more details can reference the link [tuple](http://en.cppreference.com/m
 	2. regex maybe a little complex,but We'd better study it.
 
 
+### *2017-05-24*
+	1. c++ don't recommend use rand when we need use random.We'd better to use class of random engine .
+	2. C++ standard library have many distribution about random.Such as uniform,normal,bernoulli etc... 
+	3. C++ provide some IO control characters(Such as dec,showbase etc...) to control IO format,but I think printf() in C is better.
+
+
 
 __Ps__ : This Chapter introduce  some standard library.More details can search cppreference on google or click it : [cppreference](http://en.cppreference.com/w/). The website contain many details in C/C++ (include c++11 c++14 c++17(new))
 
